@@ -1,0 +1,336 @@
+{
+  "sections": [
+    {
+      "name": "cold_open",
+      "color": "Lemon",
+      "segments": [
+        {
+          "day": 6,
+          "label": "trish-mom",
+          "start": 3362.283,
+          "end": 3390.003,
+          "note": "Hook, no premise needed: 'I asked the staff to always have music playing in her room... mom's toe would be tapping... I hadn't heard my name in ten years, but she could still relate to the music... a dream to share that with other people.' In-point at caption 3362.283 skips the rambly answer head ('Yeah it was uh that was the thing...'); out-point 3390.003 is end of last content caption, before director's 'Really nice.' at 3390.083. 27.7s."
+        },
+        {
+          "day": 6,
+          "label": "gail-thesis",
+          "start": 1204.814,
+          "end": 1210.574,
+          "note": "Thesis sting into titles: 'And really, sometimes just a song or an act of kindness can change someone's life.' In-point at caption 1204.814 clears the director line-feed ending 1204.334; out-point 1210.574 drops the garbled follow-on ('so important to book that out there'). 5.8s."
+        }
+      ]
+    },
+    {
+      "name": "act12",
+      "color": "Green",
+      "segments": [
+        {
+          "day": 5,
+          "label": "arrival-greeting",
+          "start": 19.12,
+          "end": 39.28,
+          "note": "Short arrival beat: Neville meets Gail in the driveway ('Is that you, Gail?... one of God's many places... thanks for having us'). Ends at caption start of crew 'can we pause'."
+        },
+        {
+          "day": 5,
+          "label": "gail-lightsup",
+          "start": 226.32,
+          "end": 248.56,
+          "note": "One setup bite: they perform in nursing homes, 'lights up my heart... many of them don't have family and just need to feel connected and that somebody cares.' Plants the stakes; trimmed before the emotional restart ramble."
+        },
+        {
+          "day": 5,
+          "label": "noidea",
+          "start": 659.04,
+          "end": 664.16,
+          "note": "Surprise setup: 'Do they have any clue what's going on? No idea... haven't looked out the window.' Cut before garbled crosstalk."
+        },
+        {
+          "day": 5,
+          "label": "noidea",
+          "start": 673.68,
+          "end": 677.28,
+          "note": "The alibi: 'I told them I just had to run out and move the car because we were expecting a delivery.' Pays off inside the surprise scene."
+        },
+        {
+          "day": 5,
+          "label": "car-reveal",
+          "start": 790.92,
+          "end": 813.72,
+          "note": "Gail sees the ukulele floral arrangement: 'This is incredible... Isn't it pretty? I've been practicing... Let's go in and surprise.' Ends at caption boundary before filler; select tail had director 'Pause you guys there' - excluded."
+        },
+        {
+          "day": 5,
+          "label": "approach",
+          "start": 1118.658,
+          "end": 1127.7,
+          "note": "Walking in: 'You know she has nobody. She could be so surprised.' Poignant plant for family-not-blood later; head-trimmed to the line."
+        },
+        {
+          "day": 5,
+          "label": "hearts",
+          "start": 1165.48,
+          "end": 1179.56,
+          "note": "Brooch motif plant at the door: 'And hearts - how did you know? I didn't... very special to Trisha and I. We see hearts everywhere. We gather heart rocks. It's our thing.' Ends on the button."
+        },
+        {
+          "day": 5,
+          "label": "surprise",
+          "start": 1242.84,
+          "end": 1253.156,
+          "note": "First peak, part 1: 'Hey ladies!' - entrance and first reactions. Cut at caption start of garbled 'I stopped the music' crosstalk."
+        },
+        {
+          "day": 5,
+          "label": "surprise",
+          "start": 1261.876,
+          "end": 1321.116,
+          "note": "First peak, part 2: alibi payoff ('we thought you had to go back to the car'), hug, gift to Trish, comedy kept: 'It's not a new ukulele, but it's still played... It's a heart... the ukulele works. Not very well, but neither do I.' Ends on 'What a surprise.'"
+        },
+        {
+          "day": 5,
+          "label": "meant-to-be",
+          "start": 1487.56,
+          "end": 1499.476,
+          "note": "Sit-down opens, Gail to Trish: 'the opportunity just came to me and I think it's meant to be.' Ends at caption end before 12s dead air on A-cam."
+        },
+        {
+          "day": 5,
+          "label": "inspiration-bcam",
+          "start": 5233.78,
+          "end": 5239.378,
+          "note": "B-cam-only line bridging the A-cam gap: 'You're our inspiration, you're our heart and soul. Following your mom's dream.' Tees up the mom story directly; ends at caption start of repeated 'grateful' line."
+        },
+        {
+          "day": 5,
+          "label": "mom-story",
+          "start": 1594.08,
+          "end": 1625.836,
+          "note": "Emotional core, part 1: mom's twenty-year Alzheimer's journey, no longer mobile or verbal, 'we would still wheel her down to the music and mom's toe would be tapping... grateful to the volunteers that would come in and give my mom that gift.'"
+        },
+        {
+          "day": 5,
+          "label": "mom-story",
+          "start": 1638.956,
+          "end": 1656.476,
+          "note": "Emotional core, part 2 (skips grew-up-with-music instrument list): 'as mom lost her memories, the music was always there... I knew I wanted to do something special like that for people who were in residence.' Ends before dangling fragment."
+        },
+        {
+          "day": 5,
+          "label": "mom-lookingdown",
+          "start": 2089.42,
+          "end": 2095.661,
+          "note": "Button on the mom story: 'Sure your mom's looking down on you today. - Yeah, that's exactly it.' Ends at caption start of garbled tail."
+        },
+        {
+          "day": 5,
+          "label": "trish-impact",
+          "start": 2963.675,
+          "end": 2988.635,
+          "note": "Single INT bite (Trish), amplifies the story into present impact: residents not reacting, 'the music starts and you see the spark in their eye... people jump up and dance... sometimes tears... nostalgic memories of their families.'"
+        },
+        {
+          "day": 5,
+          "label": "family-not-blood",
+          "start": 2807.64,
+          "end": 2830.439,
+          "note": "Turn begins: 'We really are a family... family's not always blood... something that could represent our bond... we're all on this journey together.' Sets up the ask; ends at caption start of trailing hedge."
+        },
+        {
+          "day": 5,
+          "label": "scale-decision",
+          "start": 3192.88,
+          "end": 3203.355,
+          "note": "Decision to scale, part 1: 'We've got a performance coming up, right?... do something a little more for the gang... there's five of you, right? There are five.'"
+        },
+        {
+          "day": 5,
+          "label": "scale-decision",
+          "start": 3210.875,
+          "end": 3227.795,
+          "note": "Part 2, Trish's ask: 'you spoke about your flowers... could we do something with flowers to kind of join us together, 'cause we are a family, let's face it.' Trims the hedging middle."
+        },
+        {
+          "day": 5,
+          "label": "scale-decision",
+          "start": 3244.915,
+          "end": 3259.555,
+          "note": "Act-out: 'Girl, I gotcha... something just clicked in my dear old mind... absolutely perfect... we'll see you later at the performance. - Oh, that sounds great.' Forward turn into Act 3."
+        }
+      ]
+    },
+    {
+      "name": "act3",
+      "color": "Red",
+      "segments": [
+        {
+          "day": 6,
+          "label": "gail-buildup-amazed",
+          "start": 933.614,
+          "end": 940.254,
+          "note": "Buildup pop: 'They are gonna be amazed... you might have some criers on our hands' - plants the tears payoff. Trimmed to the two lines; drops repeated producer Q&A."
+        },
+        {
+          "day": 6,
+          "label": "gail-buildup-noidea",
+          "start": 1054.534,
+          "end": 1072.0,
+          "note": "Pre-reveal tension: 'They're down here right now and they have no idea... I can't wait to see the reaction.' Starts at caption after director prompt; ends before crew 'That was good there' (1072.054)."
+        },
+        {
+          "day": 6,
+          "label": "trish-reveal",
+          "start": 312.32,
+          "end": 332.52,
+          "note": "One-on-one part 1: 'There, my darling... It's us... a work of art... because you are a real family... something that will last.' Starts at caption after 'And action'; cut before floral-technique run (kept once, in group scene instead)."
+        },
+        {
+          "day": 6,
+          "label": "trish-reveal",
+          "start": 356.84,
+          "end": 383.8,
+          "note": "One-on-one part 2 (mandated keep): 'So you actually made this? I did. I've been practicing' + hand-in-shirt joke setup + 'Do you think they'll like it? They will love it... so it's the big reveal.' Ends at caption start of stray 'How's that?'."
+        },
+        {
+          "day": 6,
+          "label": "trish-reveal",
+          "start": 390.36,
+          "end": 395.0,
+          "note": "Walk-out: 'Let's do it. Let's go, my darling. You lead the way... Down here somewhere.' Skips the 385-390 reset fragment."
+        },
+        {
+          "day": 6,
+          "label": "group-intro",
+          "start": 475.597,
+          "end": 518.397,
+          "note": "Group reveal: 'something very special for you all... floral jewelry, not a corsage - something you'll always have' + neutral flowers/sparkle/musical notes/heart design beat (plays only here). Trimmed walk-in herding; ends before truncated 'I'll put one on the'."
+        },
+        {
+          "day": 6,
+          "label": "group-pinning",
+          "start": 568.037,
+          "end": 595.637,
+          "note": "Pinning comedy + moment: 'Next... it's been a while since a man had his hand in my shirt' / 'Did you ever imagine?' 'Never in my wildest dreams.' Front half (pacemaker chatter, dead air) dropped for time; ends at caption start after the wildest-dreams landing."
+        },
+        {
+          "day": 6,
+          "label": "group-love",
+          "start": 630.757,
+          "end": 675.757,
+          "note": "Tears beat, scene version (foodforsoul speech dropped): 'think of the love you are sharing... music is love... My heart's just full - mine is too... I really mean thank you... I'll be in the front row in my heart.' Starts after outfits chatter; ends at 'Well, thank you' caption start."
+        },
+        {
+          "day": 6,
+          "label": "group-sendoff",
+          "start": 702.397,
+          "end": 710.237,
+          "note": "'Go and get ready, break a leg, have some fun. Thanks, everybody.' Clean scene out into the button."
+        },
+        {
+          "day": 6,
+          "label": "neville-button-likethem",
+          "start": 734.1,
+          "end": 738.9,
+          "note": "Button after they leave: 'Well, I think they like them. I mean, there's that. Thank goodness.' Full select."
+        },
+        {
+          "day": 6,
+          "label": "concert-intro",
+          "start": 1472.149,
+          "end": 1481.829,
+          "note": "Berkeley emcee context: 'These ladies are no strangers to us at the Berkeley... always a nice packed room.' Starts after 'our show this afternoon' line; skips calendar-name flub."
+        },
+        {
+          "day": 6,
+          "label": "concert-intro",
+          "start": 1489.509,
+          "end": 1502.5,
+          "note": "Walk-on: 'thank them for volunteering their time... without further ado, the ukulele ladies, 60 and Change.' Ends at select edge."
+        },
+        {
+          "day": 6,
+          "label": "concert-trish-welcome",
+          "start": 1510.229,
+          "end": 1516.869,
+          "note": "Bridge bite: 'Thank you very much, Kathy... thank you all for coming out again.' Drops audience-poll tail."
+        },
+        {
+          "day": 6,
+          "label": "concert-origin",
+          "start": 1533.029,
+          "end": 1561.149,
+          "note": "Origin story onstage, trimmed: 'came together in January 2023... planned the lesson for 90 minutes... quickly went to two hours... they said how about weekly.' Out on the punchline; drops preamble and redundant recap."
+        },
+        {
+          "day": 6,
+          "label": "concert-song-light",
+          "start": 1576.669,
+          "end": 1624.3,
+          "note": "RIGHTS-CLEARED performance: 'This uke was gifted to me two days ago' setup + This Little Light of Mine, first verse through 'let it shine, let it shine, let it shine.' Only cleared music in the act; verse-2 bleed is outside the select."
+        },
+        {
+          "day": 6,
+          "label": "concert-momstory",
+          "start": 1993.869,
+          "end": 2010.029,
+          "note": "SHORT fragment only (Day 5 sit-down owns the full mom story): 'I had a dream to play ukulele for seniors... the girls jumped right on board... It wasn't my dream anymore. It was our dream.' Ends at caption start before mom/Alzheimer's material."
+        },
+        {
+          "day": 6,
+          "label": "gail-celebration",
+          "start": 3892.04,
+          "end": 3914.92,
+          "note": "INT bite (1 of max 2 used) over concert aftermath: 'a really special part is afterwards, meeting the people... in long-term care people feel forgotten and we need to value our seniors.' Ends before 'we're seniors too' aside."
+        },
+        {
+          "day": 6,
+          "label": "neville-goodbye",
+          "start": 2949.794,
+          "end": 2982.994,
+          "note": "Landing, part 1: 'to say it was a good job? It was so much more than that... the man spelling out the words, not always to the right song... radiated through everyone's souls. Thank you for that.' Starts at 'Do you know' caption; ends before 'I gotta go / no more TVs' banter (EP-rule risk + pace)."
+        },
+        {
+          "day": 6,
+          "label": "neville-goodbye",
+          "start": 3004.674,
+          "end": 3010.914,
+          "note": "Landing, part 2: 'And continue to share all your love through music... Take care, kids.' Final out; excludes 'See you' caption that crosses the select edge."
+        }
+      ]
+    },
+    {
+      "name": "closing",
+      "color": "Purple",
+      "segments": [
+        {
+          "day": 6,
+          "label": "trish-thesis",
+          "start": 3532.603,
+          "end": 3562.203,
+          "note": "Thesis landed by the subject: 'everyone can do acts of kindness... what you think is something small is huge to somebody else... we need more of that in the world.' In-point at caption 3532.603 skips false start 'I think that I' and clears crew question containing the word 'episode' (ends 3530.283). Out 3562.203 = end of last content caption. 29.6s."
+        },
+        {
+          "day": 6,
+          "label": "gail-unsung",
+          "start": 3799.92,
+          "end": 3827.68,
+          "note": "Gail widens the thesis: 'so important to acknowledge people... their acts of kindness don't go unnoticed... the slightest little smile or hug or act of kindness can change a life.' In-point at caption 3799.92 (crew 'unsung heroes' question ends 3799.92, excluded by half-open cut). Out 3827.68 excludes the 'And I'm hopeful that' stumble + dead air. 27.8s."
+        },
+        {
+          "day": 6,
+          "label": "gail-unsung",
+          "start": 3836.64,
+          "end": 3858.24,
+          "note": "Second sub-range of same select, skipping the mid-answer stumble: 'this world's a pretty crazy place... but I believe in rising above that... treating friends and strangers with love and kindness, I think the world would be a better place.' In at caption 3836.64, out 3858.24 = end of 'place.', before crew chatter at 3858.48. 21.6s."
+        },
+        {
+          "day": 6,
+          "label": "gail-mushy",
+          "start": 4090.64,
+          "end": 4093.4,
+          "note": "Button: 'And I told her there's nothing wrong with being mushy.' In-point at caption 4090.64 — select head (4090.5) clips mid-word into the 'Trish.' address caption (4090.0-4090.64), so start at the clean pickup line instead. Out at select edge 4093.4 for a breath of air; no other speech before next caption at 4094.48. 2.8s."
+        }
+      ]
+    }
+  ]
+}

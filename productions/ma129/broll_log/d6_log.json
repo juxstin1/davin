@@ -1,0 +1,188 @@
+{
+  "story": "MA129 Music Therapy - Day 6 (concert day at the Berkeley)",
+  "reel": "BROLL_REEL (manifest row order, reelStart = cumulative duration_seconds)",
+  "clips": [
+    {
+      "clip": "A-07",
+      "reelStart": 0.0,
+      "duration": 14.514,
+      "shots": "30%: wide on audience of ~15 seniors (mostly women) seated on stacking chairs in the activity room, warm wood floor, window light behind. 70%: same setup, heads turned slightly toward the performance area; same framing.",
+      "type": ["audience"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-03",
+      "reelStart": 14.514,
+      "duration": 2.336,
+      "shots": "30% and 70%: lounge interior - gray-haired woman in floral top laughing/talking with bald man in bright floral shirt, but a CREW CAMERA OPERATOR with shoulder rig fills the right third of frame at both marks.",
+      "type": ["unusable", "face"],
+      "quality": "unusable",
+      "notes": "Crew visible: second camera operator and rig clearly in shot in both frames. Also very short (2.3s)."
+    },
+    {
+      "clip": "B-11",
+      "reelStart": 16.85,
+      "duration": 15.015,
+      "shots": "30%: close-up of green 'The Berkeley' leaf-logo lettering mounted on white exterior wall. 70%: same sign, slightly different angle (slow move).",
+      "type": ["exterior", "detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-13",
+      "reelStart": 31.865,
+      "duration": 50.05,
+      "shots": "30%: exterior lawn sign 'The Berkeley - Gracious Independent Retirement Living' with two wooden benches, trees and pathway behind. 70%: essentially the same framing (long static/slow shot).",
+      "type": ["exterior", "scenery"],
+      "quality": "usable",
+      "notes": "Prime establisher; 50s long, plenty of handle."
+    },
+    {
+      "clip": "B-17",
+      "reelStart": 81.915,
+      "duration": 16.85,
+      "shots": "30%: building entrance '35', man in blue jacket walking toward doors, half hidden behind white column; white flowering shrub right. 70%: clean close-up of a single white five-petal wild rose on a green shrub.",
+      "type": ["exterior", "detail", "scenery"],
+      "quality": "usable",
+      "notes": "At 30% subject is blocked by the column mid-move; the 70% flower CU is the keeper - nice echo of the white floral brooches."
+    },
+    {
+      "clip": "B-18",
+      "reelStart": 98.765,
+      "duration": 1.335,
+      "shots": "30% and 70%: white spirea blossom clusters on green shrub in front of a dark window; same framing.",
+      "type": ["scenery", "detail"],
+      "quality": "maybe",
+      "notes": "Image is fine but the clip is only 1.3s - too short for most cutaways."
+    },
+    {
+      "clip": "B-19",
+      "reelStart": 100.1,
+      "duration": 34.368,
+      "shots": "30%: heavily defocused foliage/white flowers in front of a window with wicker chair behind glass - focus not landed. 70%: tilted high-angle on bright green leaves, part of an unresolved camera move, soft.",
+      "type": ["scenery"],
+      "quality": "maybe",
+      "notes": "Both sampled frames are soft/mid-move; there may be a settled section elsewhere in the 34s, but as sampled it does not cut."
+    },
+    {
+      "clip": "B-20",
+      "reelStart": 134.468,
+      "duration": 45.379,
+      "shots": "30%: sharp close-up of magenta geranium cluster with small white flowers, creamy green bokeh. 70%: same flower bed but focus has drifted - foreground blooms soft.",
+      "type": ["scenery", "detail"],
+      "quality": "usable",
+      "notes": "Front portion (around 30%) is the usable part; back half goes soft."
+    },
+    {
+      "clip": "B-21",
+      "reelStart": 179.847,
+      "duration": 18.018,
+      "shots": "30% and 70%: garden detail - two rocks painted as ladybugs sitting in dark soil with small seedlings; same framing, slight angle change.",
+      "type": ["detail", "scenery"],
+      "quality": "usable",
+      "notes": "Charming character detail for the residence gardens."
+    },
+    {
+      "clip": "B-22",
+      "reelStart": 197.865,
+      "duration": 26.026,
+      "shots": "30% and 70%: exterior - empty wooden bench on stone legs beside curving wet walkway along the residence, flower beds and lamp post; same framing.",
+      "type": ["exterior", "scenery"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-24",
+      "reelStart": 223.891,
+      "duration": 15.015,
+      "shots": "30%: from behind two seated gray-haired audience members - tablet music stands set against white cabinet doors, ukulele leaning, fan at left (pre-show setup). 70%: closer on three tablet/music stands with dark sparkly scarves draped and ukuleles hung on the stands, fire extinguisher right.",
+      "type": ["instrument", "detail", "audience"],
+      "quality": "usable",
+      "notes": "Good setup/anticipation coverage of the band's tablet stands and ukes before the show."
+    },
+    {
+      "clip": "B-25",
+      "reelStart": 238.906,
+      "duration": 23.023,
+      "shots": "30%: over-the-shoulder rear view of white-haired women seated in the audience, bright window beyond. 70%: similar rear view, more residents in blue tops, butterfly wall decor visible.",
+      "type": ["audience"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-26",
+      "reelStart": 261.929,
+      "duration": 18.685,
+      "shots": "30%: from the back of the room - four empty tablet music stands lined up against white cabinets, audience heads in foreground waiting. 70%: same, slightly wider/looser.",
+      "type": ["audience", "instrument", "detail"],
+      "quality": "usable",
+      "notes": "Nice anticipation shot: stage set, crowd waiting."
+    },
+    {
+      "clip": "B-28",
+      "reelStart": 280.614,
+      "duration": 135.802,
+      "shots": "30%: room wide - seniors seated, tablet stands and a ukulele against the cabinets, butterfly art on walls. 70%: bald man with earring in vivid floral shirt standing and gesturing animatedly beside a seated older man in plaid, window behind.",
+      "type": ["audience", "face"],
+      "quality": "usable",
+      "notes": "Long 2m16s clip covering the room plus the floral-shirt gentleman (likely the MC/host) working the crowd; frames differ - both marks usable."
+    },
+    {
+      "clip": "B-32",
+      "reelStart": 416.416,
+      "duration": 12.512,
+      "shots": "30% and 70%: close-up of round gold 'Royal Oak Dining Room' sign with oak-tree emblem, mounted on interior bracket; slight angle change.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-33",
+      "reelStart": 428.928,
+      "duration": 16.85,
+      "shots": "30% and 70%: interior wide of the residence lobby - wood-paneled reception desk, landscape painting, Canada flag, glass entry doors; static framing.",
+      "type": ["scenery", "detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-34",
+      "reelStart": 445.778,
+      "duration": 15.349,
+      "shots": "30% and 70%: framed impressionist painting (barn with irises/garden) shot through the brass rails of a luggage cart; same framing.",
+      "type": ["detail", "scenery"],
+      "quality": "usable",
+      "notes": "Arty interior detail; floral subject matter fits the theme."
+    },
+    {
+      "clip": "B-35",
+      "reelStart": 461.127,
+      "duration": 28.362,
+      "shots": "30%: close-up of white calla lilies in a dried-grass arrangement in front of mirrored oak paneling, shallow focus. 70%: wider on the same arrangement, lobby furniture reflected in the beveled mirrors.",
+      "type": ["detail", "scenery"],
+      "quality": "usable",
+      "notes": "Strong floral motif shot - ties to Neville's brooches."
+    },
+    {
+      "clip": "B-38",
+      "reelStart": 489.489,
+      "duration": 27.361,
+      "shots": "30%: the five 'Sixty and Change' performers in matching blue/orange floral shirts plus a sixth woman in black-and-white floral posing for a group photo, white floral brooches pinned on chests, banjolele/ukulele resting on a chair in front; a resident in foreground photographs them with a phone. 70%: one performer (brown bob) walks toward camera, white floral brooch prominent, bandmates hugging behind.",
+      "type": ["performance", "brooch", "face", "instrument"],
+      "quality": "usable",
+      "notes": "Best band coverage in the reel - brooches clearly visible; phone photographer is a resident, not crew."
+    },
+    {
+      "clip": "B-41",
+      "reelStart": 516.85,
+      "duration": 25.359,
+      "shots": "30%: fully defocused - performers in floral shirts are soft blobs behind a dark foreground ledge (pre rack-focus). 70%: rack focus landed - yellow/red rose lying sharp on the wood ledge in foreground, band group-hugging soft in background.",
+      "type": ["brooch", "detail", "performance"],
+      "quality": "usable",
+      "notes": "Use the back half after the rack focus resolves on the rose; first half is unusably soft. Beautiful story beat: flower foreground, celebration behind."
+    },
+    {
+      "clip": "B-44",
+      "reelStart": 542.209,
+      "duration": 30.03,
+      "shots": "30%: patio flower boxes - purple petunias, red geraniums, yellow blooms sharp in foreground, furled green umbrellas and residence windows soft behind. 70%: wider - patio with furled green and blue umbrellas, chairs, and planters across the foreground.",
+      "type": ["exterior", "scenery"],
+      "quality": "usable"
+    }
+  ]
+}

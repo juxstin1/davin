@@ -1,0 +1,30 @@
+{
+  "overlays": [
+    { "source": "d5broll", "srcStart": 517.5, "srcEnd": 523.5, "at_label": "trish-mom", "occurrence": 1, "offset": 8.0, "note": "ukulele hero CU under 'music playing in her room / toe tapping'" },
+    { "source": "d5broll", "srcStart": 16.3, "srcEnd": 21.3, "at_label": "arrival-greeting", "occurrence": 1, "offset": 0.5, "note": "SUV pulls in + solar house wide - arrival establisher" },
+    { "source": "d5broll", "srcStart": 600.6, "srcEnd": 606.6, "at_label": "gail-lightsup", "occurrence": 1, "offset": 3.0, "note": "garden/house beauty under nursing-home stakes VO" },
+    { "source": "d5broll", "srcStart": 59.9, "srcEnd": 63.9, "at_label": "noidea", "occurrence": 1, "offset": 3.5, "note": "porch petunias - bridges the two noidea bites (covers jump cut)" },
+    { "source": "d5broll", "srcStart": 434.3, "srcEnd": 439.3, "at_label": "approach", "occurrence": 1, "offset": 4.5, "note": "entry hallway push-in - carries walk-in across the cut into hearts" },
+    { "source": "d5broll", "srcStart": 481.3, "srcEnd": 486.3, "at_label": "mom-story", "occurrence": 1, "offset": 8.0, "note": "pendulum clock under 'twenty year journey'" },
+    { "source": "d5broll", "srcStart": 358.4, "srcEnd": 364.4, "at_label": "mom-story", "occurrence": 1, "offset": 29.5, "note": "lakefront house straddles the mom-story seam, lands under 'the music was always there'" },
+    { "source": "d6broll", "srcStart": 2.0, "srcEnd": 7.0, "at_label": "trish-impact", "occurrence": 1, "offset": 8.0, "note": "senior audience under 'you see the spark in their eye'" },
+    { "source": "d5clip", "srcStart": 2205.0, "srcEnd": 2210.0, "at_label": "family-not-blood", "occurrence": 1, "offset": 10.0, "note": "directed group looks (A-09) under the bond talk - reaction insert" },
+    { "source": "d5broll", "srcStart": 572.7, "srcEnd": 577.7, "at_label": "scale-decision", "occurrence": 3, "offset": 8.5, "note": "iris garden breath before the act turn" },
+    { "source": "d6broll", "srcStart": 33.9, "srcEnd": 39.9, "at_label": "gail-buildup-amazed", "occurrence": 1, "offset": 0.3, "note": "'The Berkeley' sign - act 3 location establisher" },
+    { "source": "d6broll", "srcStart": 262.9, "srcEnd": 267.9, "at_label": "gail-buildup-noidea", "occurrence": 1, "offset": 9.0, "note": "music stands + waiting audience under 'can't wait to see the reaction'" },
+    { "source": "d6broll", "srcStart": 463.1, "srcEnd": 467.1, "at_label": "concert-intro", "occurrence": 1, "offset": 2.0, "note": "calla lily lobby under emcee welcome" },
+    { "source": "d6clip", "srcStart": 7518.0, "srcEnd": 7524.0, "at_label": "concert-song-light", "occurrence": 1, "offset": 15.0, "note": "brooch close-up during performance (B-42 pickups) - song audio continues" },
+    { "source": "d6clip", "srcStart": 7615.0, "srcEnd": 7620.0, "at_label": "concert-song-light", "occurrence": 1, "offset": 32.0, "note": "performer faces during song (B-42 pickups)" },
+    { "source": "d6broll", "srcStart": 9.0, "srcEnd": 13.0, "at_label": "concert-origin", "occurrence": 1, "offset": 12.0, "note": "audience listening under origin story" },
+    { "source": "d6broll", "srcStart": 492.5, "srcEnd": 498.5, "at_label": "concert-momstory", "occurrence": 1, "offset": 5.0, "note": "all five posing with brooches under 'it was our dream'" },
+    { "source": "d6broll", "srcStart": 530.9, "srcEnd": 536.9, "at_label": "gail-celebration", "occurrence": 1, "offset": 8.0, "note": "rose rack-focus, group hug soft behind, under 'value our seniors'" },
+    { "source": "d6broll", "srcStart": 508.7, "srcEnd": 513.7, "at_label": "trish-thesis", "occurrence": 1, "offset": 12.0, "note": "single-performer brooch shot under 'something small is huge'" },
+    { "source": "d5broll", "srcStart": 610.0, "srcEnd": 616.0, "at_label": "gail-unsung", "occurrence": 1, "offset": 24.0, "note": "garden/lake beauty straddles the unsung seam into 'world would be a better place'; mushy button returns to face" },
+    { "source": "d6broll", "srcStart": 92.9, "srcEnd": 96.9, "at_label": "trish-reveal", "occurrence": 1, "offset": 16.5, "note": "white flower CU bridges reveal seam 1" },
+    { "source": "d6broll", "srcStart": 468.0, "srcEnd": 472.0, "at_label": "trish-reveal", "occurrence": 2, "offset": 24.5, "note": "calla lobby slice bridges reveal seam 2 into the walk-out" },
+    { "source": "d5clip", "srcStart": 2212.0, "srcEnd": 2216.5, "at_label": "scale-decision", "occurrence": 1, "offset": 8.0, "note": "group looks (A-09) bridge scale seam 1" },
+    { "source": "d5clip", "srcStart": 1950.5, "srcEnd": 1955.0, "at_label": "scale-decision", "occurrence": 2, "offset": 14.5, "note": "Neville pondering insert (A-07) bridges the ask into 'Girl, I gotcha'" },
+    { "source": "d6broll", "srcStart": 240.0, "srcEnd": 244.5, "at_label": "concert-intro", "occurrence": 1, "offset": 7.0, "note": "audience listening bridges emcee seam" },
+    { "source": "d6broll", "srcStart": 499.5, "srcEnd": 504.5, "at_label": "neville-goodbye", "occurrence": 1, "offset": 30.0, "note": "five posing with brooches straddles goodbye seam under 'continue to share all your love through music'" }
+  ]
+}
