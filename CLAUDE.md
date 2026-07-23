@@ -30,7 +30,10 @@ timelines. Run it after touching frame math, transcript readback, or conform.
 - `AppendToTimeline` `endFrame` is **exclusive** — half-open second ranges map
   1:1 to frames. Pinned by `test_transcript_cutplan_papercut_render`.
 - New timelines inherit the project default fps (24) regardless of source.
-  Set `useCustomSettings` + `timelineFrameRate` on the timeline **while empty**.
+  Timeline-level `SetSetting("timelineFrameRate", ...)` **rejects fractional
+  rates** (29.97 in any spelling) while accepting integers — set the *project*
+  `timelineFrameRate` before creating the timeline and let it inherit;
+  `create_timeline(fps=...)` does this and verifies loudly.
 - `GetSetting("timelineFrameRate")` reports the project default for timelines
   without custom settings (a conformed 30fps timeline reads 24). Use
   `client.timeline_fps()` for any frame math. Pinned by

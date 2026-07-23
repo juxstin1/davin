@@ -310,6 +310,11 @@ class DavinClient:
         self, name: str, clips: list | None = None, fps: float | None = None
     ):
         self._goto_root()
+        fps_str = f"{fps:g}" if fps is not None else None
+        if fps_str:
+            # Timeline-level SetSetting rejects fractional rates (29.97 etc.),
+            # so set the project default first and let the timeline inherit it.
+            self.project.SetSetting("timelineFrameRate", fps_str)
         timeline = None
         for suffix in [""] + [f" {n}" for n in range(2, 100)]:
             timeline = self.media_pool.CreateEmptyTimeline(name + suffix)
@@ -317,10 +322,17 @@ class DavinClient:
                 break
         if timeline is None:
             raise DavinError(f"Could not create timeline {name!r}")
-        if fps is not None:
-            # Must happen while the timeline is still empty; best effort.
-            timeline.SetSetting("useCustomSettings", "1")
-            timeline.SetSetting("timelineFrameRate", f"{fps:g}")
+        if fps_str:
+            # Integer rates can additionally be pinned per-timeline (while empty).
+            if timeline.SetSetting("useCustomSettings", "1"):
+                timeline.SetSetting("timelineFrameRate", fps_str)
+            actual = float(timeline.GetSetting("timelineFrameRate") or 0)
+            if abs(actual - fps) > 0.01:
+                self.media_pool.DeleteTimelines([timeline])
+                raise DavinError(
+                    f"Timeline rate is {actual:g}, wanted {fps:g} - "
+                    "project frame rate may be locked"
+                )
         if clips:
             if not self.media_pool.AppendToTimeline(clips):
                 raise DavinError("AppendToTimeline failed")
