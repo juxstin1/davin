@@ -505,6 +505,7 @@ class DavinClient:
         timeline_name: str | None = None,
     ) -> Path:
         self.get_timeline(timeline_name)  # pin the target before touching playhead
+        self.resolve.OpenPage("edit")  # still export fails on the deliver page
         if at_seconds is not None:
             self.seek(at_seconds)
         path = Path(path).resolve()
