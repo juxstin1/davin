@@ -431,6 +431,7 @@ class DavinClient:
         if kind not in self.EXPORT_TYPES:
             raise DavinError(f"Unknown export type {kind!r}; one of {list(self.EXPORT_TYPES)}")
         timeline = self.get_timeline(timeline_name)
+        path.parent.mkdir(parents=True, exist_ok=True)
         r = self.resolve
         subtype = r.EXPORT_AAF_NEW if kind == "aaf" else r.EXPORT_NONE
         if not timeline.Export(str(path), getattr(r, self.EXPORT_TYPES[kind]), subtype):
