@@ -29,6 +29,10 @@ timelines. Run it after touching frame math, transcript readback, or conform.
 
 - `AppendToTimeline` `endFrame` is **exclusive** — half-open second ranges map
   1:1 to frames. Pinned by `test_transcript_cutplan_papercut_render`.
+- Video overlays have two frame-rate domains: convert `startFrame`/`endFrame`
+  with each source media pool item's FPS, but convert `recordFrame` with the
+  timeline FPS and add `timeline.GetStartFrame()`. Pass `mediaType: 1` to avoid
+  source audio, and require `SetCurrentTimeline` to succeed before appending.
 - New timelines inherit the project default fps (24) regardless of source.
   Timeline-level `SetSetting("timelineFrameRate", ...)` **rejects fractional
   rates** (29.97 in any spelling) while accepting integers — set the *project*

@@ -57,3 +57,52 @@ def test_conform_roundtrip_preserves_fps(client, speech_clip, tmp_path):
     finally:
         doomed = [t for t in (timeline, conformed) if t is not None]
         client.media_pool.DeleteTimelines(doomed)
+
+
+def test_video_overlay_uses_absolute_record_frame_without_adding_audio(
+    client, speech_clip
+):
+    [item] = client.import_media([speech_clip])
+    source_fps = float(item.GetClipProperty("FPS"))
+    timeline_rate = 24
+    timeline = client.create_timeline(
+        "smoke overlay",
+        [
+            {
+                "mediaPoolItem": item,
+                "startFrame": 0,
+                "endFrame": round(6 * source_fps),
+            }
+        ],
+        fps=timeline_rate,
+    )
+    try:
+        audio_before = [
+            (clip.GetName(), clip.GetStart(), clip.GetEnd())
+            for track in range(1, timeline.GetTrackCount("audio") + 1)
+            for clip in timeline.GetItemListInTrack("audio", track) or []
+        ]
+        count = client.add_video_overlays(
+            timeline,
+            [
+                {
+                    "mediaPoolItem": item,
+                    "start_s": 10.0,
+                    "end_s": 12.0,
+                    "record_s": 2.0,
+                }
+            ],
+        )
+        assert count == 1
+        assert timeline.GetTrackCount("video") == 2
+        [overlay] = timeline.GetItemListInTrack("video", 2)
+        assert overlay.GetStart() == timeline.GetStartFrame() + round(2 * timeline_rate)
+        assert overlay.GetDuration() == round(2 * timeline_rate)
+        audio_after = [
+            (clip.GetName(), clip.GetStart(), clip.GetEnd())
+            for track in range(1, timeline.GetTrackCount("audio") + 1)
+            for clip in timeline.GetItemListInTrack("audio", track) or []
+        ]
+        assert audio_after == audio_before
+    finally:
+        client.media_pool.DeleteTimelines([timeline])

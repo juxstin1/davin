@@ -140,3 +140,25 @@ client.ensure_project("MyProject")
 timeline, fps = client.papercut("talk.mp4", [(1.25, 3.5), (7.0, 9.2)])
 client.render("out", custom_name="final", preset="H.264 Master")
 ```
+
+Place exact source ranges over an existing cut without bringing their audio:
+
+```python
+timeline = client.get_timeline("Rough Cut")
+[broll] = client.import_media(["broll.mp4"])
+client.add_video_overlays(
+    timeline,
+    [
+        {
+            "mediaPoolItem": broll,
+            "start_s": 12.5,
+            "end_s": 16.0,
+            "record_s": 42.0,
+        }
+    ],
+)
+```
+
+Source ranges use each clip's native frame rate. Program positions are relative
+to timeline start and use the timeline's frame rate; the method creates V2 when
+needed and submits video only.
