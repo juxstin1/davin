@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import time
+from math import isfinite
 from pathlib import Path
 
 from davin.bootstrap import ResolveConnectionError, get_resolve
@@ -337,6 +338,126 @@ class DavinClient:
             if not self.media_pool.AppendToTimeline(clips):
                 raise DavinError("AppendToTimeline failed")
         return timeline
+
+    def add_video_overlays(
+        self,
+        timeline,
+        overlays: list[dict],
+        track_index: int = 2,
+    ) -> int:
+        """Place source ranges as video-only overlays at program-relative seconds.
+
+        Each overlay needs ``mediaPoolItem``, ``start_s``, ``end_s``, and
+        ``record_s``. Resolve expects an absolute record frame and an existing
+        destination track. Source trims use the source clip's rate; record
+        positions use the timeline rate.
+        """
+        if not overlays:
+            return 0
+        if not isinstance(track_index, int) or isinstance(track_index, bool):
+            raise DavinError("Overlay track must be an integer")
+        if track_index < 2:
+            raise DavinError("Overlay track must be video track 2 or higher")
+
+        record_fps = timeline_fps(timeline)
+        if not isfinite(record_fps) or record_fps <= 0:
+            raise DavinError("Could not determine a valid timeline FPS")
+        timeline_start = int(timeline.GetStartFrame())
+        clip_infos = []
+        for index, overlay in enumerate(overlays):
+            try:
+                item = overlay["mediaPoolItem"]
+                start_s = float(overlay["start_s"])
+                end_s = float(overlay["end_s"])
+                record_s = float(overlay["record_s"])
+            except (KeyError, TypeError, ValueError) as exc:
+                raise DavinError(
+                    f"Invalid video overlay at index {index}: {exc}"
+                ) from exc
+            if item is None:
+                raise DavinError(f"Video overlay {index} has no media pool item")
+            if not all(isfinite(value) for value in (start_s, end_s, record_s)):
+                raise DavinError(f"Video overlay {index} contains a non-finite time")
+            if start_s < 0 or end_s <= start_s:
+                raise DavinError(
+                    f"Video overlay {index} needs a non-negative, increasing "
+                    "source range"
+                )
+            if record_s < 0:
+                raise DavinError(
+                    f"Video overlay {index} has a negative record position"
+                )
+
+            try:
+                source_fps = float(item.GetClipProperty("FPS") or 0)
+            except (TypeError, ValueError) as exc:
+                raise DavinError(
+                    f"Could not read source FPS for video overlay {index}"
+                ) from exc
+            if not isfinite(source_fps) or source_fps <= 0:
+                raise DavinError(f"Video overlay {index} has no valid source FPS")
+
+            start_f = round(start_s * source_fps)
+            end_f = round(end_s * source_fps)
+            if end_f <= start_f:
+                raise DavinError(
+                    f"Video overlay {index} is shorter than one source frame"
+                )
+            clip_infos.append(
+                {
+                    "mediaPoolItem": item,
+                    "startFrame": start_f,
+                    "endFrame": end_f,
+                    "recordFrame": timeline_start
+                    + round(record_s * record_fps),
+                    "trackIndex": track_index,
+                    "mediaType": 1,
+                }
+            )
+
+        project = self.project
+        previous_timeline = project.GetCurrentTimeline()
+        if not project.SetCurrentTimeline(timeline):
+            raise DavinError("Could not make the overlay destination timeline current")
+
+        created_tracks = []
+        appended_items = []
+        try:
+            while timeline.GetTrackCount("video") < track_index:
+                new_track = timeline.GetTrackCount("video") + 1
+                if not timeline.AddTrack("video"):
+                    raise DavinError(f"Could not create video track {new_track}")
+                created_tracks.append(new_track)
+
+            result = self.media_pool.AppendToTimeline(clip_infos)
+            try:
+                appended_items = list(result or [])
+            except TypeError as exc:
+                raise DavinError(
+                    "AppendToTimeline returned an invalid result for video overlays"
+                ) from exc
+            if len(appended_items) != len(clip_infos):
+                raise DavinError(
+                    "AppendToTimeline appended "
+                    f"{len(appended_items)} of {len(clip_infos)} video overlays"
+                )
+        except Exception as exc:
+            rollback_errors = []
+            if appended_items and not timeline.DeleteClips(appended_items, False):
+                rollback_errors.append("could not delete partially appended items")
+            for created_track in reversed(created_tracks):
+                if not timeline.DeleteTrack("video", created_track):
+                    rollback_errors.append(
+                        f"could not delete video track {created_track}"
+                    )
+            if previous_timeline is not None and previous_timeline is not timeline:
+                if not project.SetCurrentTimeline(previous_timeline):
+                    rollback_errors.append("could not restore the previous timeline")
+            message = str(exc) or "Could not append video overlays"
+            if rollback_errors:
+                message += "; rollback incomplete: " + ", ".join(rollback_errors)
+            raise DavinError(message) from exc
+        return len(appended_items)
 
     def papercut(
         self,
