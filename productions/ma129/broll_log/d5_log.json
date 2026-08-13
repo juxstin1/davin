@@ -1,0 +1,252 @@
+{
+  "clips": [
+    {
+      "clip": "A-17",
+      "reelStart": 0.0,
+      "duration": 14.848,
+      "shots": "30%: bald man in sunflower-print shirt (likely Neville, the florist) walking down rustic stone/timber garden steps through lush ferns and pink groundcover, one arm raised to a branch; face not clearly visible. 70%: same garden staircase now empty, clean scenic frame of steps winding through the woodland garden.",
+      "type": ["exterior", "scenery", "arrival"],
+      "quality": "usable"
+    },
+    {
+      "clip": "A-21",
+      "reelStart": 14.848,
+      "duration": 15.015,
+      "shots": "30%: low-angle on black SUV front wheel/tire pulling into driveway, solar-panelled house roof and flowering shrub behind. 70%: clean wide of the grey house exterior with large solar array on roof, front porch, shrubs in bloom - strong establishing frame.",
+      "type": ["exterior", "arrival"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-01",
+      "reelStart": 29.863,
+      "duration": 28.028,
+      "shots": "30%: black SUV parked on rural road, driver door open (someone getting in/out just off frame), green treeline behind. 70%: front three-quarter of the SUV, door closing/closed, headlight and grille in frame.",
+      "type": ["arrival", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-03",
+      "reelStart": 57.891,
+      "duration": 22.189,
+      "shots": "30%: tight close-up of hanging basket bursting with magenta petunias and yellow daisies against stone wall. 70%: wider - porch steps with white railing, hanging basket foreground sharp, second urn of petunias on stone landing behind.",
+      "type": ["flowers", "detail", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-04",
+      "reelStart": 80.08,
+      "duration": 27.027,
+      "shots": "30% and 70%: close-up of driftwood owl sculpture hanging beside a white porch swing chain, grey clapboard siding and window behind; slight reframe between frames, otherwise static quirky porch detail.",
+      "type": ["detail", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-05",
+      "reelStart": 107.107,
+      "duration": 28.529,
+      "shots": "30%: chalkboard sign on porch wall reading '2026 - imagine with all your mind, believe with all your heart, achieve with all your might, and you will change the world'. 70%: slow pull-back/tilt revealing small bird figurines on the shelf below the chalkboard.",
+      "type": ["detail", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-06",
+      "reelStart": 135.636,
+      "duration": 15.515,
+      "shots": "30% and 70%: large pale-pink rhododendron bush in full (slightly past-peak) bloom filling lower frame, bright green maple canopy behind; gentle drift between frames.",
+      "type": ["flowers", "scenery"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-07",
+      "reelStart": 151.151,
+      "duration": 29.029,
+      "shots": "30%: porch tableau - two white rocking chairs, side table with bird figurines, chalkboard sign, wicker table; coral begonias soft in foreground right. 70%: rack focus completed - begonias now sharp in foreground, porch soft behind. Nice focus-pull B-roll.",
+      "type": ["detail", "exterior", "flowers"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-09",
+      "reelStart": 180.18,
+      "duration": 56.39,
+      "shots": "30%: stone garden path descending through birches, ferns and hostas toward the lake and house, path lights along edge - lovely scenic frame. 70%: completely defocused green blur (mid rack-focus/transition) - not usable at this point in the clip.",
+      "type": ["scenery", "exterior"],
+      "quality": "maybe"
+    },
+    {
+      "clip": "B-10",
+      "reelStart": 236.57,
+      "duration": 48.882,
+      "shots": "30%: rustic chiminea/outdoor fireplace surrounded by stacked birch firewood and hostas, shot through birch trunks. 70%: reframed - chiminea silhouette against calm lake with wooden dock and pontoon boat behind. Two distinct usable frames.",
+      "type": ["scenery", "exterior", "detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-11",
+      "reelStart": 285.452,
+      "duration": 19.853,
+      "shots": "30%: close-up of weathered brown birdhouse with black roof, maple leaves foreground. 70%: fairy-garden vignette on a tree stump - garden gnome, two porcelain lady figurines beside the little house. Charming whimsy detail.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-13",
+      "reelStart": 305.305,
+      "duration": 19.186,
+      "shots": "30%: purple rhododendron blooms close-up, somewhat dark/underexposed in shade. 70%: wider - the grey two-storey house seen through birch trunks with purple rhodo blooms soft in right foreground. 70% frame is the keeper.",
+      "type": ["flowers", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-14",
+      "reelStart": 324.491,
+      "duration": 29.863,
+      "shots": "30%: wide of calm lake with yellow floating water-slide platform mid-frame, treed shoreline, edge of pontoon boat right. 70%: covered pontoon boat moored at the aluminum/wood dock, lake and far shore behind.",
+      "type": ["scenery", "exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-15",
+      "reelStart": 354.354,
+      "duration": 38.038,
+      "shots": "30% and 70%: lakefront reverse - the house and lawn seen from the shoreline across shallow water, overturned dinghies on the bank, stone beach foreground, reflections in water; slow drift between frames. Strong establishing alternative.",
+      "type": ["exterior", "scenery"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-16",
+      "reelStart": 392.392,
+      "duration": 12.512,
+      "shots": "30% and 70%: empty green hammock slung between birch trunks amid ferns and hostas; near-static, minor drift.",
+      "type": ["scenery", "detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-17",
+      "reelStart": 404.904,
+      "duration": 28.362,
+      "shots": "30% and 70%: rear/lakeside elevation of the grey house - upper balcony with glass railing, string lights swooping across the lower patio, cedar and birch framing; slight push between frames.",
+      "type": ["exterior"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-18",
+      "reelStart": 433.266,
+      "duration": 11.511,
+      "shots": "30% and 70%: interior - entry hallway looking toward white front door with sidelights, wooden bookshelf left, console table with lamp, window seat right; slow push in. Good arrival-interior bridge.",
+      "type": ["detail", "arrival"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-19",
+      "reelStart": 444.777,
+      "duration": 2.836,
+      "shots": "30%: hallway console - lit lamp, gilt-framed landscape painting, anniversary clock, small bronze bust; frame slightly canted (camera settling). 70%: same, level and settled. Very short clip (2.8s).",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-21",
+      "reelStart": 447.613,
+      "duration": 9.176,
+      "shots": "30% and 70%: close-up of small bronze bust (figure in plumed hat), gilt picture frame edge above; dim/moody low-light interior detail, slight reframe between frames.",
+      "type": ["detail"],
+      "quality": "maybe"
+    },
+    {
+      "clip": "B-22",
+      "reelStart": 456.789,
+      "duration": 10.01,
+      "shots": "30% and 70%: two frosted seagull decals on a mirror/window pane beside an embossed leather book spine, warm lamp glow bokeh behind; static interior detail.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-26",
+      "reelStart": 466.799,
+      "duration": 12.512,
+      "shots": "30%: sunlit front steps of a white house - stone stairs, white railings, matching urns of pink petunias either side. 70%: tilted up to the front door flanked by two tall cedars. Bright, clean second-location exterior/arrival.",
+      "type": ["exterior", "arrival", "flowers"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-27",
+      "reelStart": 479.311,
+      "duration": 19.686,
+      "shots": "30% and 70%: antique pendulum wall clock on deep-red wall, pillar candles on mantel edge left, lamp and window soft right; slight reframe/widen between frames. Classic time-passing cutaway.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-29",
+      "reelStart": 498.997,
+      "duration": 12.512,
+      "shots": "30% and 70%: black metal compass-rose sign hanging in a window reading 'WELCOME TO THE LAKE' with anchor motif, backlit by soft trees; near-static.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-31",
+      "reelStart": 511.509,
+      "duration": 26.026,
+      "shots": "30%: hero close-up of spalted-maple ukulele with colourful Aztec-pattern strap resting on burgundy leather couch, strings and rosette sharp. 70%: pulled wider - full ukulele propped on the couch arm, living-room rehearsal space soft behind. The key instrument shot of the day.",
+      "type": ["instrument", "detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-33",
+      "reelStart": 537.535,
+      "duration": 0.5,
+      "shots": "30% and 70% (identical - clip is only 0.5s): wooden wall-mounted dinner bell left, 'EAT DRINK & be merry' sign through doorway. Frame is clean but the clip is a half-second fragment - too short to cut with; B-35 covers the same setup.",
+      "type": ["detail", "unusable"],
+      "quality": "unusable"
+    },
+    {
+      "clip": "B-35",
+      "reelStart": 538.035,
+      "duration": 32.699,
+      "shots": "30% and 70%: same setup as B-33 at full length - antique wooden bracket with brass dinner bell, doorway to kitchen with 'EAT DRINK & be merry' sign; gentle drift between frames.",
+      "type": ["detail"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-37",
+      "reelStart": 570.734,
+      "duration": 26.86,
+      "shots": "30% and 70%: sunny perennial garden bed - purple Siberian irises and white irises foreground, pink flowering crabapple tree and blue sky behind; light breeze movement between frames.",
+      "type": ["flowers", "scenery"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-38",
+      "reelStart": 597.594,
+      "duration": 38.538,
+      "shots": "30% and 70%: wide garden composition - white house with double balconies left, ornate iron garden bench mid-frame, iris bed foreground, glimpse of lake between trees; slow drift. Excellent location-establishing beauty shot.",
+      "type": ["exterior", "flowers", "scenery"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-39",
+      "reelStart": 636.132,
+      "duration": 0.5,
+      "shots": "30% and 70% (identical - clip is only 0.5s): close-up of two blue Siberian iris blooms. Pretty frame but a half-second fragment; B-40 covers the same subject.",
+      "type": ["flowers", "unusable"],
+      "quality": "unusable"
+    },
+    {
+      "clip": "B-40",
+      "reelStart": 636.632,
+      "duration": 11.011,
+      "shots": "30% and 70%: cluster of blue Siberian irises among tall green blades, second bloom lower right; breeze movement, sunlit.",
+      "type": ["flowers"],
+      "quality": "usable"
+    },
+    {
+      "clip": "B-42",
+      "reelStart": 647.643,
+      "duration": 17.351,
+      "shots": "30% and 70%: macro-ish close-up of single yellow daylily with buds, blue irises as soft bokeh behind; gentle sway between frames. Strong florist-thematic cutaway.",
+      "type": ["flowers", "detail"],
+      "quality": "usable"
+    }
+  ]
+}

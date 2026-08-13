@@ -1,0 +1,48 @@
+{
+  "cold_open": [
+    {
+      "day": 6,
+      "label": "trish-mom",
+      "start": 3362.283,
+      "end": 3390.003,
+      "note": "Hook, no premise needed: 'I asked the staff to always have music playing in her room... mom's toe would be tapping... I hadn't heard my name in ten years, but she could still relate to the music... a dream to share that with other people.' In-point at caption 3362.283 skips the rambly answer head ('Yeah it was uh that was the thing...'); out-point 3390.003 is end of last content caption, before director's 'Really nice.' at 3390.083. 27.7s."
+    },
+    {
+      "day": 6,
+      "label": "gail-thesis",
+      "start": 1204.814,
+      "end": 1210.574,
+      "note": "Thesis sting into titles: 'And really, sometimes just a song or an act of kindness can change someone's life.' In-point at caption 1204.814 clears the director line-feed ending 1204.334; out-point 1210.574 drops the garbled follow-on ('so important to book that out there'). 5.8s."
+    }
+  ],
+  "closing": [
+    {
+      "day": 6,
+      "label": "trish-thesis",
+      "start": 3532.603,
+      "end": 3562.203,
+      "note": "Thesis landed by the subject: 'everyone can do acts of kindness... what you think is something small is huge to somebody else... we need more of that in the world.' In-point at caption 3532.603 skips false start 'I think that I' and clears crew question containing the word 'episode' (ends 3530.283). Out 3562.203 = end of last content caption. 29.6s."
+    },
+    {
+      "day": 6,
+      "label": "gail-unsung",
+      "start": 3799.92,
+      "end": 3827.68,
+      "note": "Gail widens the thesis: 'so important to acknowledge people... their acts of kindness don't go unnoticed... the slightest little smile or hug or act of kindness can change a life.' In-point at caption 3799.92 (crew 'unsung heroes' question ends 3799.92, excluded by half-open cut). Out 3827.68 excludes the 'And I'm hopeful that' stumble + dead air. 27.8s."
+    },
+    {
+      "day": 6,
+      "label": "gail-unsung",
+      "start": 3836.64,
+      "end": 3858.24,
+      "note": "Second sub-range of same select, skipping the mid-answer stumble: 'this world's a pretty crazy place... but I believe in rising above that... treating friends and strangers with love and kindness, I think the world would be a better place.' In at caption 3836.64, out 3858.24 = end of 'place.', before crew chatter at 3858.48. 21.6s."
+    },
+    {
+      "day": 6,
+      "label": "gail-mushy",
+      "start": 4090.64,
+      "end": 4093.4,
+      "note": "Button: 'And I told her there's nothing wrong with being mushy.' In-point at caption 4090.64 — select head (4090.5) clips mid-word into the 'Trish.' address caption (4090.0-4090.64), so start at the clean pickup line instead. Out at select edge 4093.4 for a breath of air; no other speech before next caption at 4094.48. 2.8s."
+    }
+  ]
+}
