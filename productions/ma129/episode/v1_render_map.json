@@ -1,0 +1,52 @@
+{
+  "render": "C:\\Users\\juxxs\\Desktop\\davin\\ma129\\out\\MA129_assembly_v1.mp4",
+  "fps": "30000/1001",
+  "note": "D5 A-01 (reel 0-913.246) stand-in: v1 base-cut render (no overlays, no voice iso). Frames verified against MA129_assembly_v1.edl record TCs.",
+  "segments": [
+    {
+      "label": "arrival-greeting",
+      "start": 19.12,
+      "end": 39.28,
+      "render_in_f": 1003,
+      "render_out_f": 1607,
+      "edl_event": "003",
+      "edl_match": true
+    },
+    {
+      "label": "gail-lightsup",
+      "start": 226.32,
+      "end": 248.56,
+      "render_in_f": 1607,
+      "render_out_f": 2273,
+      "edl_event": "004",
+      "edl_match": true
+    },
+    {
+      "label": "noidea",
+      "start": 659.04,
+      "end": 664.16,
+      "render_in_f": 2273,
+      "render_out_f": 2427,
+      "edl_event": "005",
+      "edl_match": true
+    },
+    {
+      "label": "noidea",
+      "start": 673.68,
+      "end": 677.28,
+      "render_in_f": 2427,
+      "render_out_f": 2535,
+      "edl_event": "006",
+      "edl_match": true
+    },
+    {
+      "label": "car-reveal",
+      "start": 790.92,
+      "end": 813.72,
+      "render_in_f": 2535,
+      "render_out_f": 3218,
+      "edl_event": "007",
+      "edl_match": true
+    }
+  ]
+}

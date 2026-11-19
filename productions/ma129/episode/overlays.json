@@ -21,10 +21,20 @@
     { "source": "d6broll", "srcStart": 508.7, "srcEnd": 513.7, "at_label": "trish-thesis", "occurrence": 1, "offset": 12.0, "note": "single-performer brooch shot under 'something small is huge'" },
     { "source": "d5broll", "srcStart": 610.0, "srcEnd": 616.0, "at_label": "gail-unsung", "occurrence": 1, "offset": 24.0, "note": "garden/lake beauty straddles the unsung seam into 'world would be a better place'; mushy button returns to face" },
     { "source": "d6broll", "srcStart": 92.9, "srcEnd": 96.9, "at_label": "trish-reveal", "occurrence": 1, "offset": 16.5, "note": "white flower CU bridges reveal seam 1" },
-    { "source": "d6broll", "srcStart": 468.0, "srcEnd": 472.0, "at_label": "trish-reveal", "occurrence": 2, "offset": 24.5, "note": "calla lobby slice bridges reveal seam 2 into the walk-out" },
+    { "source": "d6broll", "srcStart": 468.0, "srcEnd": 472.0, "at_label": "trish-reveal", "occurrence": 2, "offset": 38.26, "note": "calla lobby slice bridges reveal seam 2 into the walk-out (v4: offset 24.5 -> 38.26, part 2 grew 13.76s at the head)" },
     { "source": "d5clip", "srcStart": 2212.0, "srcEnd": 2216.5, "at_label": "scale-decision", "occurrence": 1, "offset": 8.0, "note": "group looks (A-09) bridge scale seam 1" },
     { "source": "d5clip", "srcStart": 1950.5, "srcEnd": 1955.0, "at_label": "scale-decision", "occurrence": 2, "offset": 14.5, "note": "Neville pondering insert (A-07) bridges the ask into 'Girl, I gotcha'" },
     { "source": "d6broll", "srcStart": 240.0, "srcEnd": 244.5, "at_label": "concert-intro", "occurrence": 1, "offset": 7.0, "note": "audience listening bridges emcee seam" },
-    { "source": "d6broll", "srcStart": 499.5, "srcEnd": 504.5, "at_label": "neville-goodbye", "occurrence": 1, "offset": 30.0, "note": "five posing with brooches straddles goodbye seam under 'continue to share all your love through music'" }
+    { "source": "d6broll", "srcStart": 499.5, "srcEnd": 504.5, "at_label": "neville-goodbye", "occurrence": 1, "offset": 30.0, "note": "five posing with brooches straddles goodbye seam under 'continue to share all your love through music'" },
+    { "source": "estbroll", "srcStart": 61.0, "srcEnd": 64.5, "at_label": "orchids", "occurrence": 1, "offset": 0.0, "note": "v4 act1 open: EST B-03 wide corner of the shop (SUNNY - shop day is overcast; fine as an act-open establisher only)" },
+    { "source": "estbroll", "srcStart": 487.0, "srcEnd": 490.0, "at_label": "orchids", "occurrence": 1, "offset": 3.5, "note": "v4 act1 open: EST B-17 'My Mother's Bloomers' signboard, then cut inside to Neville + orchids" },
+    { "source": "d7broll", "srcStart": 93.5, "srcEnd": 97.5, "at_label": "call-smashing", "occurrence": 1, "offset": 12.0, "note": "v4: B-04 Neville's hand pulling carnations (still @95.3) bridges A-02 hang-up -> A-01 'Neville, come on over'" },
+    { "source": "d7broll", "srcStart": 141.6, "srcEnd": 145.6, "at_label": "trish-named", "occurrence": 1, "offset": 25.5, "note": "v4: B-05 Neville laughing by the stock shelf (still @143.6) bridges A-01 take 2 -> A-04 circled take" },
+    { "source": "d7broll", "srcStart": 70.5, "srcEnd": 74.5, "at_label": "ukulele-punch", "occurrence": 1, "offset": 34.6, "note": "v4: B-04 carnation + sunflower buckets (still @72.5) bridges the intra-take trim into 'surprise them all'" },
+    { "source": "d7broll", "srcStart": 116.0, "srcEnd": 120.0, "at_label": "ukulele-punch", "occurrence": 2, "offset": 7.0, "note": "v4: B-04 Neville choosing stems in profile (still @118.0) carries the act turn into the build (A-04 -> A-07)" },
+    { "source": "d7broll", "srcStart": 157.2, "srcEnd": 161.2, "at_label": "popcorn-string", "occurrence": 1, "offset": 41.4, "note": "v4: B-05 Neville gathering a hand-tied bunch (still @159.2) bridges A-07 trim into bad-relationship" },
+    { "source": "d7broll", "srcStart": 172.9, "srcEnd": 176.9, "at_label": "bad-relationship", "occurrence": 1, "offset": 8.5, "note": "v4: B-05 shelf + sunflowers (still @174.9) bridges A-07 trim into treble-clef" },
+    { "source": "d7broll", "srcStart": 104.0, "srcEnd": 108.0, "at_label": "treble-clef", "occurrence": 1, "offset": 41.5, "note": "v4: B-04 carnation selection (between stills @95.3/@118.0 - unverified frame) bridges A-07 trim into not-just-a-carnation" },
+    { "source": "d7broll", "srcStart": 149.0, "srcEnd": 153.0, "at_label": "finished-piece", "occurrence": 1, "offset": 5.8, "note": "v4: B-05 Neville at the shelf (between stills @143.6/@159.2 - unverified frame) bridges the A-09 aside cut into found-something" }
   ]
 }

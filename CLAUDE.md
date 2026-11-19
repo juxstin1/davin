@@ -4,6 +4,21 @@ Python package + CLI that drives DaVinci Resolve Studio through its scripting
 API. Resolve must be **running** (takes ~30–60s after launch before it accepts
 connections; `davin status` exits 2 until then).
 
+**Python 3.12, pinned in `.python-version`.** Resolve 21's `fusionscript.dll`
+hard-crashes (access violation, exit 139 / -1073741819, no traceback) under
+3.13. A segfault from `davin status` means a 3.13 venv, not Resolve being down.
+Fix: `rm -rf .venv && uv run davin status`.
+
+Footage drops: `productions/stage_drop.py <story-day folder> --project ...
+--label ... --work ...` stages any DASH story-day folder (cross-checks, captions
+JSON, reels + boundary markers). It's idempotent: rerun it when missing reels
+arrive. The Drive packages often lack the CLIP reels, but the per-clip 540p
+proxies (`Shoot-Day Transcripts/<NN Day>/<NN Day>/<story>/`) rebuild them
+**bit-identically** (verified by MD5 against a shipped reel) via
+`productions/rebuild_reel.py`, into `Downloads\Making Arrangements (rebuilt
+reels)\`. It refuses to build if any proxy is missing or off its manifest
+duration.
+
 ## Drive it
 
 - `uv run davin --help` — full command list. Every command accepts

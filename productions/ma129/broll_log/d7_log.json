@@ -1,0 +1,37 @@
+{
+  "story": "MA129 Music Therapy - Day 7 (shop day, Act 1) + Day 7 Establishing Shots group",
+  "reel": "BROLL_REEL (manifest row order, reelStart = cumulative duration_seconds). Logged from stills at 20/50/80% (MA129) and 50% (establishing).",
+  "clips": [
+    { "clip": "A-10", "reelStart": 0.0, "duration": 57.391, "shots": "20%: wide corner exterior of the shop (grey clapboard, red awning band), overcast, car hood foreground. 50%: Neville (sunflower shirt) loading a tall bouquet into a black SUV, shop corner behind. 80%: SUV door closing.", "type": ["departure", "exterior"], "quality": "usable", "use": "Act 1 exit - after found-something ('on the way over to the event')" },
+    { "clip": "B-04", "reelStart": 57.391, "duration": 75.742, "shots": "20%: shop interior, buckets of sunflowers + red/pink/white carnations, warm light. 50%: Neville's hand pulling carnation stems from the buckets. 80%: Neville in profile choosing stems.", "type": ["shop-work", "carnations"], "quality": "usable", "use": "1.1 shop work / 1.4 selecting carnations before popcorn-string" },
+    { "clip": "B-05", "reelStart": 133.133, "duration": 52.219, "shots": "20%: Neville laughing beside a shelf of stock, snapdragons and roses. 50%: Neville gathering a hand-tied bunch of pink/peach stems. 80%: empty flower shelf, sunflowers lower right.", "type": ["shop-work"], "quality": "usable", "use": "1.1 shop work; covers the orchids-to-phone-call seam" },
+    { "clip": "B-10", "reelStart": 185.352, "duration": 53.887, "shots": "20%: Neville exits the shop door (no. 2086) carrying the arrangement, street wide. 50%: he opens the SUV rear door. 80%: SUV, door closed, overcast street.", "type": ["departure", "exterior"], "quality": "usable", "use": "Act 1 exit; pairs with A-10 as a two-angle departure" }
+  ],
+  "establishing": {
+    "group": "Day 07 / Establishing Shots (own Resolve project DASH-ESTABLISHING, timeline 'EST D7 broll reel')",
+    "note": "These are SUNNY; the MA129 shop-day b-roll is OVERCAST. Fine for an episode-open shop establisher, but don't intercut them directly with A-10/B-10.",
+    "clips": [
+      { "clip": "B-01", "shot": "pride + Canada flags on the shop corner, teal house behind" },
+      { "clip": "B-02", "shot": "shop door no. 2086, planters, sign above" },
+      { "clip": "B-03", "shot": "WIDE corner establisher - full building, flags, street" },
+      { "clip": "B-04", "shot": "WIDE corner establisher, alternate angle down the street" },
+      { "clip": "B-05", "shot": "red awning + door, low angle" },
+      { "clip": "B-06", "shot": "rack-focus through foreground blur onto the door" },
+      { "clip": "B-07", "shot": "flags against blue sky, low angle" },
+      { "clip": "B-08", "shot": "planter box with a 'Don't Pee On Me' sign (comic button)" },
+      { "clip": "B-09", "shot": "window petunias, pride flag inside" },
+      { "clip": "B-10", "shot": "Canada flag in the window, flower box" },
+      { "clip": "B-11", "shot": "street-side shrubbery, red blooms, street depth" },
+      { "clip": "B-12", "shot": "stained-glass window detail" },
+      { "clip": "B-13", "shot": "white cleome against cedar" },
+      { "clip": "B-14", "shot": "cleome with flags/bunting, sky" },
+      { "clip": "B-15", "shot": "window display of hand sculptures (peace signs)" },
+      { "clip": "B-16", "shot": "'DOG URINE KILLS PLANTS' sign (comic button)" },
+      { "clip": "B-17", "shot": "'My Mother's Bloomers' signboard with heart - SHOP NAME" },
+      { "clip": "B-18", "shot": "same signboard, alternate" },
+      { "clip": "B-19", "shot": "heart sticker, defocused (rack start)" },
+      { "clip": "B-20", "shot": "heart sticker, in focus" },
+      { "clip": "B-21", "shot": "poster of Neville in the window ('Flowers & Gifts')" }
+    ]
+  }
+}

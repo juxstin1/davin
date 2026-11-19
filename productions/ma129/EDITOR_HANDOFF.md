@@ -17,6 +17,8 @@ answer is written down.
 | `MA129 selects v3` | Day 6 selects, 34 cuts / 21.6 min, beat-colored markers |
 | `MA129 episode assembly v1` | The radio cut: 13:52, 44 cuts (cold open 0:34 → Act 1/2 5:29 → Act 3 6:27 → close 1:22), marker per cut with source + rationale (Lemon/Green/Red/Purple by section) |
 | `MA129 episode assembly v2` | v1 + picture pass: 20 video-only b-roll/reaction overlays on V2 (Cream markers), placed from the visual b-roll log (`broll_log\d{5,6}_log.json` — every b-roll clip described from stills). Screener: `out\MA129_assembly_v2.mp4` |
+| `MA129 episode assembly v4 - act1 pending` | **Built 2026-11-19.** v3 + the D6 **treble-clef callback** at the Trish reveal (+13.8s); 14:06, 44 cuts, 26/26 overlays, voice iso 35%, 424 captions. Mint marker "ACT 1 SHOP GOES HERE" after the cold open. The 5 D5 A-01 driveway cuts play from the v1 render (marker notes say `[v1-render stand-in]`: no overlays there, re-encoded once), because the A-01 proxy was never uploaded. Spot-checked against the v1/v3 renders at 40/95/115/250/700s. Screener: `out\MA129_assembly_v4_act1pending.mp4`. |
+| `MA129 episode assembly v4` | **Cut, not yet built: needs the Day 7 footage.** Adds **Act 1 shop** (D7, 4:10, 12 cuts) between the cold open and Act 1/2: 18:16, 56 cuts, 37 overlays (Mint markers = Act 1). Read it now in `episode\PAPERCUT.md`. Build: `episode\build_episode_v4.py`. |
 | `MA129 episode assembly v3` | **Current: 26 overlays (every intra-scene jump-cut seam now bridged), voice isolation 35% on A1, 419 auto-captions on the subtitle track** (QC before delivery; render with SubtitleFormat SeparateFile for SRT). Screener: `out\MA129_assembly_v3.mp4`. Not done by design: B-cam angle flips (needs waveform A/B alignment — transcript offsets risk lip drift), music bed (no library provided), J/L audio restructure (post sync-verdict). |
 
 **On disk (`Desktop\davin\ma129\`):**
@@ -47,8 +49,26 @@ answer is written down.
    discriminating snippets are in `davin\out\sync-check-*.mp4` — play outside
    Resolve. If confirmed, fix is upstream in the Mac concat or an audio slip
    on affected segments.
-2. **No shop footage** — Act 1 beats 1.1/1.4 (Neville working, building the
-   arrangement) exist in neither drop. The assembly opens without them.
+2. **Shop footage arrived (Day 7, 2026-11-19 drop).** Act 1 beats 1.1/1.2/1.4
+   are selected in `day07\selects.json` / `day07\SELECTS.md` (14 selects,
+   8.7 min). The `MA129 D7 selects v1` timeline isn't built yet because the
+   drop shipped without `MA129_CLIP_REEL.mp4` (B-roll reel is staged as
+   `MA129 D7 broll reel`). Beat 1.3 (the need) was not shot in the shop.
+   **Media status (2026-11-19):** the July download folders were deleted and
+   Drive never got the CLIP reels. They were rebuilt from the per-clip proxies
+   (`productions\rebuild_reel.py`, bit-identical to the shipped reels) into
+   `Downloads\Making Arrangements (rebuilt reels)\` and relinked in
+   `DASH-MA129`. The D6 clip reel, D6 B-roll and D5 B-roll are online. **Still
+   missing:** (a) the D5 A-01 proxy (`DASH-DAY05-MA129-CAM A-01_proxy_540p.mp4`,
+   913.2s, the driveway scene; its audio m4a exists, its picture doesn't) and
+   (b) every Day 7 MA129 proxy (Drive's `Shoot-Day Transcripts` has only 05/06
+   Day). Until both arrive, the D5 clip reel stays offline (v1–v3 Act 1/2 show
+   Media Offline) and v4 can't build. `build_episode_v4.py --check` lists
+   exactly what's missing.
+2b. **Audio is ~15–20 dB low** in every assembly render (v1, v3, v4: dialogue
+   peaks around -24 dBFS, mean -47 to -58 dB). Both channels carry audio. This is
+   the proxies' recorded level, not a v4 regression. Normalize (A1 clip gain or
+   Fairlight loudness to -24 LKFS) before anything leaves the building.
 3. **Rights**: cleared-by-default only This Little Light of Mine + Michael
    Row the Boat Ashore (traditional). Flagged: Bring Me Sunshine (1966),
    Eight Days a Week (Beatles), Peaceful Easy Feeling fragment. Floor audio
