@@ -21,6 +21,97 @@
       ]
     },
     {
+      "name": "act1",
+      "color": "Mint",
+      "segments": [
+        {
+          "day": 7,
+          "label": "orchids",
+          "start": 12.8,
+          "end": 24.16,
+          "note": "1.1 open, shop life before the story: 'Look at you, beautiful thing... all the varieties of orchids in the world... All you want to do is bloom.' In at caption 12.8 (director's 'action.' ends 12.8). Out at 24.16, before the garbled 'grinds that are grown here in Canada' line. Establisher overlays (sunny exterior, sign) sit over the first 6.5s."
+        },
+        {
+          "day": 7,
+          "label": "call-smashing",
+          "start": 316.32,
+          "end": 330.398,
+          "note": "1.2 story enters, phone outro (A-02): 'Okay, Gail... gotta come up with something pretty smashing... Thanks so much for calling. Bye-bye.' The only on-camera 'Gail' in the shop. Out at 330.398 = start of 'come on over' (A-02 goes on to the wrong pastel/Hawaiian facts, never use past 344.8)."
+        },
+        {
+          "day": 7,
+          "label": "trish-named",
+          "start": 120.36,
+          "end": 147.8,
+          "note": "1.2 Must-Have (Gail's ask + who Trish is), A-01 take 2: 'Neville, come on over... I love a ukulele story... started a ukulele band at COVID... celebrate the person that started the group, named Trish. And so Gail just called and asked if we could do something special for her. Isn't that wild? - Wow.' In at 120.36 clears 'And action David' (ends 120.12). Out 147.8 before 'do you know any other' (take later says 'Hawaii', excluded)."
+        },
+        {
+          "day": 7,
+          "label": "ukulele-punch",
+          "start": 518.93,
+          "end": 555.57,
+          "note": "1.2 Neville takes it on, circled A-04 take: 'She says do a Neville... flowers dance, they're musical in their own right... a ukulele is a simple, diminutive little instrument that can pack a lot of punch and a lot of color and a lot of power, and carnations do the same thing. So we have all those different colors.' Skips David's re-exposition (covered by trish-named). Out before David's 'I can see that musical going on'."
+        },
+        {
+          "day": 7,
+          "label": "ukulele-punch",
+          "start": 575.21,
+          "end": 583.93,
+          "note": "1.2 act turn, same take: 'I might give Gail a call. No, you know what? I'm just gonna surprise her. I'm gonna surprise them all... I know exactly what to do. You leave that with me.' Plants the extended kindness. Out before the orchid-order aside (584.17)."
+        },
+        {
+          "day": 7,
+          "label": "popcorn-string",
+          "start": 954.35,
+          "end": 997.79,
+          "note": "1.4 the build begins (A-07 one take): 'Remember when we were kids and strung popcorn for Christmas?... string those carnations... it doesn't hurt them... the whole idea is that I'm going to make sort of a musical note with these.' Kept whole: the musical-note promise sets up treble-clef. Out before David's 'Okay.'"
+        },
+        {
+          "day": 7,
+          "label": "bad-relationship",
+          "start": 1026.75,
+          "end": 1037.31,
+          "note": "1.4 button: 'the best ones are the carnations, because carnations will hang on like a bad relationship and last forever and ever and ever.' Tight - the 'get over it' run (1044-1052) is the first trim-back candidate if Act 1 needs time."
+        },
+        {
+          "day": 7,
+          "label": "treble-clef",
+          "start": 1163.55,
+          "end": 1207.07,
+          "note": "1.4 comic spine, plant for Act 3: 'You're not much of a music guy? / To play an instrument? Absolutely not... What's that squiggly thing? / That is a treble clef... / I'm gonna make that into a tr- what do you call it? / ...a very ornate number six... / Oh, and it's called a what? / Treble clef. / That's exactly where I was going with that... I'm so smart with these words now.' He forgets the word twice here and a third time at the D6 reveal (act3 trish-reveal 343.08). Out at 'Look at that.' before the glasses/Saturn aside."
+        },
+        {
+          "day": 7,
+          "label": "not-just-a-carnation",
+          "start": 1267.59,
+          "end": 1279.91,
+          "note": "1.4 thesis of the piece: 'carnations are such an underrated flower... This is not just a carnation. This is a dance - they're dancing with the music and flowing around.' Out at end of 'flowing around' before the lily-grass explainer."
+        },
+        {
+          "day": 7,
+          "label": "finished-piece",
+          "start": 1426.425,
+          "end": 1434.27,
+          "note": "1.4 finished item (A-09, last take): 'Look at you. You're absolutely beautiful. I love it... That's terrific. Isn't it great? Here's some tea for you.' Out before the 1434-1442 aside (speaker unverified - listen before restoring)."
+        },
+        {
+          "day": 7,
+          "label": "found-something",
+          "start": 1442.745,
+          "end": 1467.68,
+          "note": "1.4 act-out + plant: 'Honey, I found something else that's gotta go with this... on the way over to the event... She's gonna love it... You can have my tea... Bye, doll.' The 'something else' is the used ukulele - pays off in act12 surprise ('It's not a new ukulele, but it's still played')."
+        },
+        {
+          "day": 7,
+          "source": "d7broll",
+          "label": "departure-broll",
+          "start": 191.0,
+          "end": 200.0,
+          "note": "Nat-sound out (B-roll B-10, overcast, matches the shop day): door no. 2086 opens, Neville steps out carrying the arrangement and walks to camera. Frames checked at 2s steps (door 190 -> exit 194 -> walk 198). Hands off to act12 arrival-greeting's 'SUV pulls in' overlay."
+        }
+      ]
+    },
+    {
       "name": "act12",
       "color": "Green",
       "segments": [
@@ -187,9 +278,9 @@
         {
           "day": 6,
           "label": "trish-reveal",
-          "start": 356.84,
+          "start": 343.08,
           "end": 383.8,
-          "note": "One-on-one part 2 (mandated keep): 'So you actually made this? I did. I've been practicing' + hand-in-shirt joke setup + 'Do you think they'll like it? They will love it... so it's the big reveal.' Ends at caption start of stray 'How's that?'."
+          "note": "v4: head extended 356.84 -> 343.08 for the treble-clef callback to the Act 1 shop joke: 'the musical notes made with the wire... / It almost reminds me of a treble clef. / And it kind of brings a what? / A treble clef. / Oh yes... That's exactly what I was gonna think.' (third time he loses the word). Then part 2 as before (mandated keep): 'So you actually made this? I did. I've been practicing' + hand-in-shirt joke setup + 'Do you think they'll like it? They will love it... so it's the big reveal.' In at caption 343.08 after 'little heart... so symbolic'; ends at caption start of stray 'How's that?'. Adds one musical-notes mention ahead of group-intro's - trim there if it reads twice."
         },
         {
           "day": 6,
